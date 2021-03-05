@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "title": "Galaxy S21 Ultra",
+    "image": "https://i8.rozetka.ua/goods/21352181/copy_samsung_galaxy_s21_phantom_black_sm_g998bzkdsek_5ffd9630688cb_images_21352181316.jpg",
+    "price": 39000,
+    "description": " Мобільний телефон Samsung Galaxy S21 Ultra 12/256 GB Phantom Black (SM-G998BZKGSEK) "
+  },
+  {
+    "id": 1,
+    "title": "Galaxy A71",
+    "image": "https://i2.rozetka.ua/goods/16375408/samsung_sma715fzbusek_images_16375408358.png",
+    "price": 8500,
+    "description": "Мобільний телефон Samsung Galaxy A71 6/128GB Blue (SM-A715FZBUSEK)"
+  },
+  {
+    "id": 2,
+    "title": "Samsung",
+    "image": "https://i2.rozetka.ua/goods/19989841/samsung_sm_g780fzwdsek_images_19989841236.jpg",
+    "price": 18000,
+    "description": "Мобільний телефон Samsung Galaxy S20 FE 6/128 GB Cloud White (SM-G780FZWDSEK)"
+  },
+  {
+    "id": 3,
+    "title": "Жорсткий диск ",
+    "image": "https://i1.rozetka.ua/goods/12387364/92224148_images_12387364706.jpg",
+    "price": 1324,
+    "description": " Жорсткий диск 3.5\" SATA 1TB WD Green (WD10EZRX) Refurbished "
+  },
+  {
+    "id": 4,
+    "title": " Samsung Galaxy S20 Plus 8/128GB",
+    "image": "https://i8.rozetka.ua/goods/16848211/samsung_galaxy_s20_plus_gray_sm_g985fzadsek_images_16848211892.jpg",
+    "price": 24999,
+    "description": "Мобільний телефон Samsung Galaxy S20 Plus 8/128GB"
+  },{
+  "id": 5,
+  "title": "Xiaomi Redmi Note 9",
+  "image": "https://i2.rozetka.ua/goods/18070905/copy_xiaomi_redmi_note_9_3_64gb_midnight_grey_5eada7cf4de74_images_18070905211.jpg",
+  "price": 4888,
+  "description": "Мобільний телефон Xiaomi Redmi Note 9 4/128GB"
+},{
+  "id": 6,
+  "title": "Samsung Galaxy A31",
+  "image": "https://i2.rozetka.ua/goods/17537537/samsung_sm_a315fzbusek_images_17537537689.jpg",
+  "price": 5499,
+  "description": "Мобільний телефон Samsung Galaxy A31 4/64GB Prism"
+},
+  {
+    "id": 7,
+    "title": "Samsung Galaxy S10",
+    "image": "https://i2.rozetka.ua/goods/18152922/samsung_sm_g975fckdsek_images_18152922691.jpg",
+    "price": 17499,
+    "description": "Мобільний телефон Samsung Galaxy S10 Plus 8/128GB"
+  }
+
+]
