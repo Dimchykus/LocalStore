@@ -1,8 +1,15 @@
 import {Button, Card, Icon, Image, Butt} from 'semantic-ui-react'
 
+
+const ButItem = props => {
+    props.Minus(props.id)
+    props.AddToCard(props)
+}
+
+
 const Items = (props) => {
 
-    const {title, price, addedCount, count, image, description} = props;
+    const {title, price, count, image, description} = props;
 
     return (
 
@@ -21,8 +28,8 @@ const Items = (props) => {
                     {price}
                 </a>
             </Card.Content>
-            <Button onClick={() => props.AddToCard(props)}>
-                Buy
+            <Button onClick={() => ButItem(props)}>
+                Buy({count})
             </Button>
         </Card>
 

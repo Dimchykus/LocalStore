@@ -12,20 +12,18 @@ const reducer = (state = initialState, action) => {
         case "ADD":
             return {
                 ...state,
-                items: [...state.items.map(value => {
+                items: state.items.map(value => {
                     if (value.id === action.id) {
                         value.count++;
                     }
                     return (value)
                 })
-
-                ]
             }
         case "MINUS":
             return {
                 ...state,
                 items: [...state.items.map(value => {
-                    if (value.id === action.id) {
+                    if (value.id === action.id && value.count > 0) {
                         value.count--;
                     }
                     return (value)

@@ -6,7 +6,7 @@ import {Add, Minus, setItems} from "./../actions/item"
 import {AddToCard, removeFromCart} from "./../actions/basket"
 import axios from "axios";
 import {Container, Card} from "semantic-ui-react"
-//c
+
 class App extends React.Component {
 
     componentWillMount() {
@@ -17,11 +17,11 @@ class App extends React.Component {
     }
 
     render() {
-        const {products, cardProducts, totalPrice} = this.props;
-        const items = products.map(product => <Items {...product} Add={this.props.Add} Minus={this.props.Minus}
+        const {products, cardProducts, totalPrice, addedItems} = this.props;
+        const items = products.map(product => <Items {...product}  Minus={this.props.Minus}
                                                      AddToCard={this.props.AddToCard}/>);
         const cardItems = cardProducts.map(product => <Basket {...product}
-                                                              removeFromCard={this.props.removeFromCard}/>);
+                                                              removeFromCard={this.props.removeFromCard} Add={this.props.Add}/>);
         return (
             <Container>
 
@@ -29,7 +29,7 @@ class App extends React.Component {
                 <Card.Group>
                     {items}
                 </Card.Group>
-                <h1>BASKET , Total price: {totalPrice}</h1>
+                <h1>BASKET({addedItems}) , Total price: {totalPrice}</h1>
                 <Card.Group>
                     {cardItems}
                 </Card.Group>
